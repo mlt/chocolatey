@@ -146,6 +146,7 @@ foreach ($packageName in $packageNames) {
       "search"          { Chocolatey-List $packageName $source }
       "list"            { Chocolatey-List $packageName $source }
       "version"         { Chocolatey-Version $packageName $source }
+      "packages"        { Chocolatey-Packages }
       "webpi"           { Chocolatey-WebPI $packageName $installArguments }
       "windowsfeatures" { Chocolatey-WindowsFeatures $packageName }
       "cygwin"          { Chocolatey-Cygwin $packageName $installArguments }
